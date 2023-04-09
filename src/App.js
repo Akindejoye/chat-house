@@ -1,8 +1,9 @@
-function App() {
+import Register from "./pages/Register";
+import './style.scss';
+
+const App = () => {
   return (
-    <div>
-      Hello world!
-    </div>
+    <Register />
   );
 }
 
